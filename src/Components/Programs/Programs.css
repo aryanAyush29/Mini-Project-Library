@@ -1,0 +1,63 @@
+.programs {
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: flex-start; /* Align items at the start */
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows wrapping of items on smaller screens */
+    gap: 20px;
+  }
+  
+  .program {
+    position: relative;
+    flex-basis: 31%; /* Adjust width of each program */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .program img {
+    width: 100%; /* Ensure the image fills the width of the program */
+    border-radius: 15px;
+    display: block;
+  }
+  
+  .caption {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Exactly center the caption */
+    display: flex;
+    flex-direction: column;
+    color:  #fff;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    gap: 10px;
+    background: rgba(0, 15, 152, 0.5); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 10px;
+    padding-top: 30%;
+    transition: 0.4s;
+
+  }
+  
+  .caption img {
+    width: 60px; /* Icon size */
+    height: 60px;
+    object-fit: contain;
+  }
+  
+  .caption p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .program:hover .caption{
+    opacity: 1;
+    padding-top: 0;
+  }
+  
