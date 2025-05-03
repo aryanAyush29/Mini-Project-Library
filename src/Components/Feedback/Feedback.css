@@ -68,3 +68,78 @@
 .user-info h3{
     color: #484F96;
 }
+
+
+
+
+@media(max-width: 800px) {
+    .feedback{
+        padding: 0 40px;
+
+    }
+
+    .next-btn, .back-btn{
+        padding: 10px;
+        width: 35px;
+
+    }
+
+    .feedback ul li {
+        padding: 10px;
+
+    }
+
+
+    .slide{
+        padding: 10px;
+
+    }
+
+
+    .slide img{
+        width: 50px;
+        border: 3px solid #484F96;
+    }
+}
+
+
+@media (max-width: 600px){
+    .user-info{
+        display:block;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+
+    .user-info h3{
+        font-size: 16px;
+
+    }
+
+
+    .slide p{
+        font-size: 12px;
+         
+    }
+}
+
+
+
+
+@media ( max-width: 600px){
+    .footer{ 
+        display: block;
+        text-align: center;
+
+    }
+
+    .footer ul li {
+        margin:10px;
+
+    }
+
+    .footer ul {
+        margin-top: 10px;
+        
+    }
+}
