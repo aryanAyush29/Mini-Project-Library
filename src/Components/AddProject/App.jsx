@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import ProjectForm from './ProjectForm';
-import ViewProjects from './ViewProjects';
+import ProjectForm from './ProjectForm.jsx';
+import ViewProjects from './ViewProjects.jsx';
 import './App.css';
 
 function AddProject() {
