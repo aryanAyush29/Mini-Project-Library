@@ -43,7 +43,7 @@ const ProjectForm = () => {
     };
 
     const handleBack = () => {
-        navigate("/view-projects");
+        navigate("/project/view");
     };
 
     return (

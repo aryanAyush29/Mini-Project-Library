@@ -20,7 +20,7 @@ const ViewProjects = () => {
     }, []);
 
     const handleAddProject = () => {
-        navigate("/add-project");
+        navigate("/project/add");
     };
 
     const handleBack = () => {
